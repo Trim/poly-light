@@ -1,5 +1,5 @@
 # Global properties
-title-text: ""
+title-text: "Sélection du système à démarrer"
 desktop-image: "background.png"
 desktop-color: "#000000"
 terminal-font: "Unifont Regular 18"
@@ -32,10 +32,7 @@ terminal-border: "0"
   width = 100%
   align = "center"
   id = "__timeout__"
-  # EN
-  text = "Booting in %d seconds"
-  # RU
-  # text = "Загрузка выбранного пункта через %d сек."
+  text = "Démarrage automatique dans %d secondes…"
   color = "#000000"
   font = "Unifont Regular 18"
 }
@@ -46,10 +43,7 @@ terminal-border: "0"
   top = 100%-24
   width = 100%
   align = "center"
-  # EN
-  text = "Use ↑ and ↓ keys to change selection, Enter to confirm"
-  # RU
-  # text = "Используйте клавиши ↑ и ↓ для изменения выбора, Enter для подтверждения"
+  text = "Choisissez le système avec les flèches du clavier (↑ et ↓), puis validez avec la touche Enter (↲)"
   color = "#000000"
   font = "Unifont Regular 18"
 }
